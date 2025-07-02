@@ -1,0 +1,133 @@
+/* === FORMULAIRE GLOBAL === */
+form {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin-left: 0;
+    box-sizing: border-box;
+  }
+  
+  /* === LABELS === */
+  label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* === CHAMPS DE TEXTE ET DATES === */
+  input[type="text"],
+  input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1em;
+    box-sizing: border-box;
+  }
+
+  
+  
+  /* === CHAMP TEXTE AVEC ICÔNE (comme loupe) === */
+  .input-with-icon {
+    position: relative;
+    width: 100%;
+  }
+  
+  .input-with-icon input {
+    padding-left: 35px; /* espace pour l'icône à gauche */
+  }
+  
+  .input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 1rem;
+    pointer-events: none;
+  }
+  
+  /* === GROUPES CHECKBOX & RADIO ALIGNÉS === */
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  .checkbox-group input[type="checkbox"],
+  .checkbox-group input[type="radio"] {
+    margin: 0;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  /* === GROUPE RADIO EN LIGNE (type de location) === */
+  .radio-inline-group {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .radio-inline-group label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  /* === BOUTON SUBMIT === */
+  button[type="submit"] {
+    margin-top: 20px;
+    background-color: #d40000;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #a50000;
+  }
+  
+  /* === DATES SUR UNE LIGNE AVEC ICÔNE AU CENTRE === */
+  .date-row {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    margin-top: 15px;
+  }
+  
+  .date-group {
+    flex: 1;
+  }
+  
+  .icon-center {
+    font-size: 1.5em;
+    color: #d40000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+  }
+  

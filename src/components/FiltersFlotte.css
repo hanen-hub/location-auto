@@ -1,0 +1,32 @@
+/* FiltersFlotte.css */
+
+.filters-bar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: #f9f9f9;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .filter-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .filter-btn:hover {
+    background-color: #eee;
+  }
+  
+  .filter-btn.active {
+    background-color: #e60000;
+    color: white;
+    font-weight: bold;
+  }
+  

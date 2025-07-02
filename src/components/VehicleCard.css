@@ -1,0 +1,40 @@
+/* src/components/VehicleCard.css */
+
+.vehicle-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .vehicle-img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .vehicle-info {
+    flex: 1;
+  }
+  
+  .vehicle-name {
+    margin: 0;
+    color: #002f6c; /* bleu foncé */
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .vehicle-desc {
+    margin: 8px 0 0;
+    color: #555;
+    line-height: 1.4;
+  }
+  
+  .vehicle-price {
+    color: #008000; /* vert */
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  

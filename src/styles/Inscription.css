@@ -1,0 +1,139 @@
+.inscription-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inscription-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #2c3e50;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-group input,
+.input-group select {
+  flex: 1;
+  padding: 10px 12px 10px 40px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+  outline: none;
+  border-color: #2980b9;
+}
+
+.input-group .input-icon {
+  position: absolute;
+  left: 12px;
+  color: #888;
+}
+
+.input-group svg {
+  position: absolute;
+  left: 12px;
+  color: #888;
+  font-size: 16px;
+}
+
+.password-group .toggle-password {
+  position: absolute;
+  right: 12px;
+  cursor: pointer;
+  color: #888;
+}
+
+button[type="submit"] {
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+.message {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: green;
+}
+
+/* Input téléphone */
+.input-group .react-tel-input .form-control {
+  width: 100% !important;
+  padding-left: 48px !important;
+  border-radius: 8px;
+  height: 40px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+/* Pour que l'icône téléphone reste visible */
+.input-group .react-tel-input {
+  width: 100%;
+  padding-left: 30px;
+}
+
+/* Section facturation */
+.facturation-section {
+  background-color: #f7f7f7;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.facturation-section h3 {
+  margin-top: 0;
+  color: #2c3e50;
+  font-size: 18px;
+}
+
+.info-facturation {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.cartes-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.cartes-images img {
+  height: 40px;
+  object-fit: contain;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  padding: 4px;
+  background-color: white;
+}

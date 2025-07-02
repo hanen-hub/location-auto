@@ -1,0 +1,36 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d40000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .navbar-title {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .navbar-info {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .navbar-info button {
+    padding: 6px 12px;
+    background: white;
+    color: #d40000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .navbar-info button:hover {
+    background: #f0f0f0;
+  }
+  
